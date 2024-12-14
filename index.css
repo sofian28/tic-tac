@@ -1,0 +1,63 @@
+
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Corpo da página */
+    body {
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      background: url('backg.jpg') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Navbar */
+    nav {
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px 0;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    /* Botão */
+    .button-container {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 20px;
+      color: white;
+      background-color: #e94560;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    button:hover {
+      background-color: #ff3d68;
+      transform: scale(1.05);
+    }
+
+    /* Texto central */
+    h1 {
+      margin-top: 100px;
+      color: white;
+      font-size: 36px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
